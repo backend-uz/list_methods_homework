@@ -7,5 +7,5 @@ def main(fruits,x):
     Returns:
         list: return answer
     """
-    a = fruits.pop(x)
+    fruits.append(x)
     return fruits
