@@ -7,13 +7,15 @@ def main(fruits):
         list: return answer
     """
     i = 0
-    b = []
+    b =0
+    answer=[]
 
     while i < len(fruits):
         if fruits[i] == 'apple':
-            b.append(i)
+            b+=1
+            answer.append(i)
         i += 1
-    return b
-
-mevalar = ['apple','apple','olma']
+    answer.insert(0, b)
+    return answer
+mevalar = ["apple", "banana", "apple", "pear", "apple"]
 print(main(mevalar))
