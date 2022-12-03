@@ -9,8 +9,8 @@ def main(numbers1, numbers2):
     Returns:
         list: return answer
     """
-    f = numbers1.pop(0)
-    numbers2.insert(0, f)
+    n = numbers1.pop(0)
+    numbers2.insert(0, n)
     numbers1.extend(numbers2)
     return numbers1
 a = [1,2,3,4,5]
