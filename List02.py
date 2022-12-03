@@ -8,4 +8,7 @@ def main(fruits,x,i):
     Returns:
         list: return answer
     """
-    return
+    fruits.insert(i, x)
+    return fruits
+a = ['asdf', 'fefec', 'vwrvw']
+print(main(a, 'wer', 0))
