@@ -6,4 +6,20 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    i = 0
+    z = 0
+    o = 0
+    l = []
+
+    while i < len(list1):
+        if list1[i] == 1:
+            o +=1
+        else:
+            z += 1
+        i +=1
+    l.append(o)
+    l.append(z)
+
+    return l
+ls = [0,1]
+print(main(ls))
